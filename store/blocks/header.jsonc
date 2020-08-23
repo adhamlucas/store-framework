@@ -98,7 +98,7 @@
 
   "header-row#menu": {
     "children": [
-      "header-space",
+      "header-spacer",
       "vtex.menu@2.x:menu#categories",
       "header-spacer"
     ]
