@@ -16,8 +16,6 @@
   "search-result-layout.customQuery": {
     "props": {
       "querySchema": {
-        "skusFilter": "FIRST_AVALIABLE",
-        "simulationBehavior": "skip",
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 8,
         "hideUnavailableItems": true
