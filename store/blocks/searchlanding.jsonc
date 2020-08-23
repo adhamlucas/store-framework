@@ -1,0 +1,27 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "src": "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "minWidth": "100%"
+    }
+  },    
+
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVALIABLE",
+        "simulationBehavior": "skip",
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 8,
+        "hideUnavailableItems": true
+      }
+    }
+  }
+}
